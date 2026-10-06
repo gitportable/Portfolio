@@ -4,8 +4,8 @@
     <meta charset="UTF-8"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mariam Khan</title>
-    <!-- Tailwind CSS -->
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Tailwind CSS
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> -->
     <!-- Remix Icons -->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet"/>
     <!-- Favicon -->
@@ -60,11 +60,11 @@
                           
                         </h1>
                         <!-- Floating Badge -->
-                        <div class="absolute -top-10 right-0 md:right-20 w-32 h-32 rounded-full bg-black text-white flex items-center justify-center text-center text-xs font-mono rotate-12 animate-spin-slow shadow-2xl hero-reveal">
+                        <div class="absolute -top-10 right-0 md:right-02 w-32 h-32 rounded-full bg-black text-white flex items-center justify-center text-center text-xs font-mono rotate-12 animate-spin-slow shadow-2xl hero-reveal">
                             FULL STACK<br>DEVELOPER
                         </div>
                     </div>
-                    <div class="h-12 overflow-hidden flex items-center gap-2">
+                    <div class="h-08 overflow-hidden flex items-center gap-2">
                         <span class="w-2 h-2 bg-black rounded-full animate-pulse"></span>
                         <span class="text-xl md:text-2xl font-mono" id="typewriter"></span>
                     </div>
@@ -72,8 +72,13 @@
                         <a href="#contact" class="magnetic-btn px-10 py-4 bg-black text-white font-bold hover:bg-gray-900 transition-colors shadow-[8px_8px_0px_0px_rgba(0,0,0,0.2)] hover:shadow-none hover:translate-x-[2px] hover:translate-y-[2px] border border-black">
                             START A PROJECT
                         </a>
-                        <a href="#about" class="magnetic-btn px-10 py-4 border border-black font-bold hover:bg-black hover:text-white transition-all">
-                            VIEW PROFILE
+                        <a 
+                            href="https://drive.google.com/file/d/1tfUi3mMIWAEFzbWiwQP-CB_d2h6IrCAM/view?usp=sharing"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="magnetic-btn px-10 py-4 border border-black font-bold hover:bg-black hover:text-white transition-all"
+                        >
+                            DOWNLOAD RESUME
                         </a>
                     </div>
                 </div>
@@ -106,7 +111,7 @@
                     <div>
                         <span class="inline-block border border-black px-4 py-1 rounded-full text-sm font-mono mb-8" data-gsap="fade">LOCATION DATA</span>
                         <h2 class="text-5xl md:text-7xl font-black mb-8 leading-tight" data-gsap="slide-up">
-                            Based IN <br> BENGALORE<br>INDIA 
+                            Based in <br> BENGALORE<br>INDIA 
                             <!-- <span class="text-transparent bg-clip-text bg-gradient-to-r from-gray-400 to-gray-800">BANGALORE,INDIA</span> -->
                         </h2>
                         <p class="text-xl text-gray-600 leading-relaxed mb-10 max-w-md" data-gsap="fade">
@@ -246,11 +251,11 @@
                 </div>
                 <div class="flex gap-20 px-20 pl-[20vw]" id="works-wrapper">
                     <!-- Card 1 -->
-                    <div class="work-item w-[80vw] md:w-[600px] h-[60vh] relative group cursor-pointer">
+                    <div class="work-item w-[80vw] md:w-[600px] h-[80vh] relative group cursor-pointer">
                         <div class="absolute inset-0 bg-gray-100 transform rotate-2 group-hover:rotate-0 transition-transform duration-500 border border-black"></div>
                         <div class="absolute inset-0 bg-white border border-black p-8 flex flex-col justify-between transform group-hover:-translate-y-2 transition-transform duration-500">
-                            <div class="w-full h-3/5 overflow-hidden bg-gray-200 mb-6 relative">
-                                <img src="\ops4.jpeg" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 scale-110 group-hover:scale-100">
+                            <div class="w-full h-full overflow-hidden bg-gray-200 mb-6 relative">
+                                <img src="\ops4.jpeg" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 scale-80 group-hover:scale-80">
                                 <div class="absolute top-2 right-2 bg-black text-white text-xs font-mono px-2 py-1">Full Stack</div>
                             </div>
                             <div>
@@ -265,16 +270,16 @@
                         </div>
                     </div>
                     <!-- Card 2 -->
-                    <div class="work-item w-[80vw] md:w-[600px] h-[60vh] relative group cursor-pointer mt-20">
+                    <div class="work-item w-[80vw] md:w-[600px] h-[80vh] relative group cursor-pointer mt-20">
                         <div class="absolute inset-0 bg-gray-900 transform -rotate-2 group-hover:rotate-0 transition-transform duration-500 border border-black"></div>
                         <div class="absolute inset-0 bg-black text-white border border-gray-800 p-8 flex flex-col justify-between transform group-hover:-translate-y-2 transition-transform duration-500">
-                            <div class="w-full h-3/5 overflow-hidden bg-gray-800 mb-6 relative">
-                                <img src="\connect chatbot ui.jpeg" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 scale-110 group-hover:scale-100 opacity-70 group-hover:opacity-100">
+                            <div class="w-full h-full overflow-hidden bg-gray-800 mb-6 relative">
+                                <img src="\connect chatbot ui.jpeg" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 scale-60 group-hover:scale-80 opacity-70 group-hover:opacity-100">
                                 <div class="absolute top-2 right-2 bg-white text-black text-xs font-mono px-2 py-1">AI & Machine Learning</div>
                             </div>
                             <div>
-                                <h3 class="text-4xl font-bold mb-2">Connect-Multimodal & Multipersonality chatbot application</h3>
-                                <p class="text-gray-400 font-mono text-sm">AI-driven companion offering voice-enabled interactions, emotion-aware responses, and personalized content recommendations</p><br>
+                                <h3 class="text-4xl font-bold mb-2">Connect</h3>
+                                <p class="text-gray-400 font-mono text-sm">Multimodal & Multipersonality chatbot application ,AI-driven companion offering voice-enabled interactions, emotion-aware responses, and personalized content recommendations</p><br>
                                 <p class="text-gray-500 font-mono text-sm"><h5>Tech Stack: React, Node.js, MongoDB, Material UI, Recharts, Axios, REST APIs, RBAC</h5></p><br>
                             </div>
                             <div class="flex justify-between items-end border-t border-gray-700 pt-4">
@@ -284,11 +289,11 @@
                         </div>
                     </div>
                     <!-- Card 3 -->
-                    <div class="work-item w-[80vw] md:w-[600px] h-[60vh] relative group cursor-pointer">
+                    <div class="work-item w-[80vw] md:w-[600px] h-[80vh] relative group cursor-pointer">
                         <div class="absolute inset-0 bg-gray-200 transform rotate-1 group-hover:rotate-0 transition-transform duration-500 border border-black"></div>
                         <div class="absolute inset-0 bg-white border border-black p-8 flex flex-col justify-between transform group-hover:-translate-y-2 transition-transform duration-500">
-                            <div class="w-full h-3/5 overflow-hidden bg-gray-200 mb-6 relative">
-                                <img src="\apache access.png" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 scale-110 group-hover:scale-100">
+                            <div class="w-full h-full overflow-hidden bg-gray-200 mb-6 relative">
+                                <img src="\apache access.png" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 scale-60 group-hover:scale-80">
                                 <div class="absolute top-2 right-2 bg-black text-white text-xs font-mono px-2 py-1">DevOps & Observability</div>
                             </div>
                             <div>
@@ -382,7 +387,115 @@
             </div>
         </section>
         <!-- Contact Section -->
-        <section id="contact" class="py-32 bg-black text-white relative overflow-hidden">
+        <section id="contact" class="contact-section">
+
+            <div class="contact-pattern"></div>
+
+            <div class="contact-inner">
+
+                <div class="contact-heading">
+                    <span>CONTACT / 04</span>
+
+                    <h2>GET IN TOUCH</h2>
+
+                    <p>
+                        Have a project, opportunity, or idea in mind?
+                        Let's build something meaningful.
+                    </p>
+                </div>
+
+                <div class="contact-links">
+
+                    <!-- Phone -->
+                    <a
+                        href="tel:+918884613437"
+                        class="contact-link"
+                        aria-label="Call Mariam Khan"
+                    >
+                        <span class="contact-icon">
+                            <i class="ri-phone-fill"></i>
+                        </span>
+
+                        <span class="contact-label">
+                            <small>PHONE</small>
+                            <strong>+91 88846 13437</strong>
+                        </span>
+
+                        <i class="ri-arrow-right-up-line contact-arrow"></i>
+                    </a>
+
+
+                    <!-- Email -->
+                    <a
+                        href="mailto:mariamkhan2026k@gmail.com"
+                        class="contact-link"
+                        aria-label="Email Mariam Khan"
+                    >
+                        <span class="contact-icon">
+                            <i class="ri-mail-send-fill"></i>
+                        </span>
+
+                        <span class="contact-label">
+                            <small>EMAIL</small>
+                            <strong>mariamkhan2026k@gmail.com</strong>
+                        </span>
+
+                        <i class="ri-arrow-right-up-line contact-arrow"></i>
+                    </a>
+
+
+                    <!-- LinkedIn -->
+                    <a
+                        href="https://www.linkedin.com/in/mariam-khan-ds/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="contact-link"
+                        aria-label="Mariam Khan on LinkedIn"
+                    >
+                        <span class="contact-icon">
+                            <i class="ri-linkedin-fill"></i>
+                        </span>
+
+                        <span class="contact-label">
+                            <small>LINKEDIN</small>
+                            <strong>mariam-khan-ds</strong>
+                        </span>
+
+                        <i class="ri-arrow-right-up-line contact-arrow"></i>
+                    </a>
+
+
+                    <!-- GitHub -->
+                    <a
+                        href="https://github.com/gitportable"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="contact-link"
+                        aria-label="Mariam Khan on GitHub"
+                    >
+                        <span class="contact-icon">
+                            <i class="ri-github-fill"></i>
+                        </span>
+
+                        <span class="contact-label">
+                            <small>GITHUB</small>
+                            <strong>gitportable</strong>
+                        </span>
+
+                        <i class="ri-arrow-right-up-line contact-arrow"></i>
+                    </a>
+
+                </div>
+
+                <div class="contact-footer">
+                    <p>© 2026 MARIAM KHAN</p>
+                    <p>DESIGNED &amp; BUILT BY MARIAM KHAN</p>
+                </div>
+
+            </div>
+
+        </section>
+        <!-- <section id="contact" class="py-32 bg-black text-white relative overflow-hidden">
             <div class="absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')]"></div>
             <div class="container mx-auto px-6 relative z-10 flex flex-col items-center text-center">
                 <h2 class="text-6xl md:text-9xl font-black mb-12 hover:tracking-wide transition-all duration-500 cursor-default">GET IN TOUCH</h2>
@@ -393,18 +506,18 @@
                     <a href="mailto:mariamkhan2026k@gmail.com" class="magnetic-btn w-20 h-20 md:w-24 md:h-24 rounded-full border border-gray-700 flex items-center justify-center text-3xl hover:bg-white hover:text-black hover:scale-110 transition-all duration-300">
                         <i class="ri-mail-send-fill"></i>
                     </a>
-                    <!-- <a href="https://wa.me/94786802008" target="_blank" class="magnetic-btn w-20 h-20 md:w-24 md:h-24 rounded-full border border-gray-700 flex items-center justify-center text-3xl hover:bg-white hover:text-black hover:scale-110 transition-all duration-300">
+                    <a href="https://wa.me/94786802008" target="_blank" class="magnetic-btn w-20 h-20 md:w-24 md:h-24 rounded-full border border-gray-700 flex items-center justify-center text-3xl hover:bg-white hover:text-black hover:scale-110 transition-all duration-300">
                         <i class="ri-whatsapp-fill"></i>
                     </a> -->
-                </div>
+                <!-- </div>
                 <div class="w-full max-w-2xl border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center text-gray-500 font-mono text-xs">
                     <p>&copy; 2026 MARIAM KHAN</p>
                     <p class="mt-2 md:mt-0">DESIGNED MARIAM KHAN</p>
                 </div>
             </div>
-        </section>
+        </section> -->
     </main>
     <!-- External JS -->
     <script type="module" src="./src/main.js"></script>
 </body>
-</html>
+</html> -->
