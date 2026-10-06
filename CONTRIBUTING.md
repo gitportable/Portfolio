@@ -1,7 +1,5 @@
 # Contributing to A Nest Level Portfolio
 
-Thank you for considering contributing to **A Nest Level Portfolio**! We're thrilled to have you join the journey in crafting stunning, performant portfolios inspired by the serene vibes of Sri Lanka's hill country. Whether you're fixing a bug, adding a killer animation, or suggesting a dark mode toggle, your input helps make this template even more magical. 🌿💻 
-
 This guide outlines how to get involved. By participating, you agree to abide by our [Code of Conduct](CODE_OF_CONDUCT.md) (feel free to create one if it doesn't exist yet!).
 
 ## 🚀 Getting Started
