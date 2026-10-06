@@ -69,17 +69,6 @@ We welcome all kinds of contributions! Here's what fits best:
 - **Build Check**: `npm run build` should output a single, minified `index.html` (<1MB).
 - **Edge Cases**: Test on mobile, dark mode, slow networks.
 
-### Releasing
-- Bump version in `package.json` (e.g., `npm version patch`).
-- Tag & push: `git push --tags`.
-- Update demo on Vercel/Netlify.
-
-## 🤝 Community & Support
-
-- **Discussions**: Join [GitHub Discussions](https://github.com/dnuzi/Portfolio-Site/discussions) for Q&A.
-- **Stuck?**: Open an issue or DM on [YouTube](https://www.youtube.com/@MovaNest).
-- **Shoutouts**: We feature contributors in releases – tag yourself!
-
 ## ❤️ Credits
 
 This project stands on the shoulders of giants:
@@ -91,8 +80,5 @@ This project stands on the shoulders of giants:
 Built with love from Negombo, Sri Lanka. Let's code like a hill country breeze – calm, yet unstoppable. 🌊
 
 ---
-
-**Happy Contributing!**  
-*Danu'Zz & Kelum'Xz* | January 2026 Edition  
 
 [Back to README](README.md) | [Issues](https://github.com/dnuzi/Portfolio-Site/issues)
