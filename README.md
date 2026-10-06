@@ -1,6 +1,3 @@
-# A Nest Level Portfolio 🚀
-
-[![Stars](https://img.shields.io/github/stars/dnuzi/Portfolio-Site?style=social)](https://github.com/dnuzi/Portfolio-Site/stargazers) [![Forks](https://img.shields.io/github/forks/dnuzi/Portfolio-Site?style=social)](https://github.com/dnuzi/Portfolio-Site/network/members) [![License](https://img.shields.io/github/license/dnuzi/Portfolio-Site)](https://github.com/dnuzi/Portfolio-Site/blob/main/LICENSE) [![Vercel Deploy](https://img.shields.io/badge/Deploy-Vercel-brightgreen)](https://vercel.com/new/git/external?repository-url=https://github.com/dnuzi/Portfolio-Site)
 
 A sleek, **full-stack creative portfolio template** built with modern tools like **Vite**, **Tailwind CSS**, **GSAP**, and **Lenis** for buttery-smooth animations. Inspired by the misty hills of Sri Lanka, it blends tranquility with cutting-edge code. Perfect for developers, designers, and creators who want to stand out. **100% free, open-source, and customizable** – deploy in minutes!
 
