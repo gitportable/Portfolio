@@ -7,7 +7,7 @@ This guide outlines how to get involved. By participating, you agree to abide by
 ## 🚀 Getting Started
 
 1. **Fork the Repo**:
-   - Head to [the repo](https://github.com/dnuzi/Portfolio-Site) and click **Fork**.
+   - Head to [the repo](https://github.com/portfolio) and click **Fork**.
    - Clone your fork: `git clone https://github.com/YOUR_USERNAME/danuzz-portfolio.git`.
    - Create a feature branch: `git checkout -b feature/amazing-idea`.
 
@@ -34,11 +34,6 @@ We welcome all kinds of contributions! Here's what fits best:
 | **🔧 Refactor** | Clean up code without changing behavior? | `refactor` |
 | **🎨 Style** | Tweak designs or animations? | `design` |
 | **🚀 Performance** | Optimize bundle size or scroll? | `performance` |
-
-### Reporting Issues
-- Open a [new issue](https://github.com/dnuzi/Portfolio-Site/issues/new).
-- Use the template: Describe the problem, steps to reproduce, and screenshots/GIFs.
-- Bonus: Suggest a fix! (We love proactive contributors.)
 
 ### Submitting Pull Requests (PRs)
 1. **Make Changes**:
@@ -77,8 +72,4 @@ This project stands on the shoulders of giants:
 - **Remix Icon**: Clean SVGs.
 - **You!** – Every star, fork, and PR fuels the fire.
 
-Built with love from Negombo, Sri Lanka. Let's code like a hill country breeze – calm, yet unstoppable. 🌊
-
 ---
-
-[Back to README](README.md) | [Issues](https://github.com/dnuzi/Portfolio-Site/issues)
