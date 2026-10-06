@@ -1,7 +1,4 @@
 # Customization Guide for A Nest Level Portfolio
-
-Welcome to the customization playground! 🌿💻 This template is designed to be as flexible as a Sri Lankan tea plantation breeze – tweak it to reflect *your* story, style, and skills. Whether you're a solo dev from Colombo or a design duo in Kandy, these steps will help you make it yours without breaking a sweat.
-
 This guide covers **beginner-friendly edits** to **pro-level hacks**. Fork the repo, fire up `npm run dev`, and let's dive in. Remember: Changes are live-reloadable in dev mode!
 
 ## 🎨 Quick Wins: Basic Customizations
@@ -9,12 +6,12 @@ This guide covers **beginner-friendly edits** to **pro-level hacks**. Fork the r
 Start here to personalize without touching code. All edits are in `index.html` unless noted.
 
 ### 1. **Hero Section: Your Intro Spotlight**
-   - **Name & Tagline**: Swap "KELUM S. VIDU RANGA" in `<h1>` with your name. Update the typewriter (`#typewriter`) text in `src/main.js` (e.g., `gsap.to('#typewriter', { text: "Your Skills | Here | Now", ... });`).
+   - **Name & Tagline**: Swap "Mariam Khan" in `<h1>` with your name. Update the typewriter (`#typewriter`) text in `src/main.js` (e.g., `gsap.to('#typewriter', { text: "Your Skills | Here | Now", ... });`).
    - **Profile Image**: Replace `/public/kelum-viduranga-portrait.jpg` with your photo (aspect 4:5, <500KB). Update `src` in `<img>`.
    - **Badge**: Edit the floating "FULL STACK CREATIVE" div for your title.
 
 ### 2. **About Section: Your Origin Story**
-   - **Location**: Change "NUWARA ELIYA" to your city (e.g., "COLOMBO"). Update the SVG map path if you're not in Sri Lanka (or keep it for flair!).
+   - **Location**: Change to your city (e.g., "COLOMBO"). Update the SVG map path if you're not in Sri Lanka (or keep it for flair!).
    - **Bio Text**: Rewrite the `<p>` paragraph to tell your tale.
    - **Stats**: In `src/main.js`, tweak `updateTimeBasedStats()` for birthdate (`birthDate`) and career start (`careerStartDate`). Projects calc is approximate – adjust the multiplier.
 
@@ -102,10 +99,3 @@ Run `npm run build` after changes – check console for errors. Still stuck? [Op
 Your portfolio isn't just code – it's your digital handshake. Test on real devices, get feedback from peers, and iterate like the monsoons: steady and transformative.
 
 ---
-
-**Crafted by [Danu'Zz & Kelum'Xz](https://github.com/dnuzi)**  
-*January 2026 Edition* | [YouTube Tutorials](https://www.youtube.com/@MovaNest)  
-
-[Back to README](README.md) | [Contribute](CONTRIBUTING.md)  
-
-> "Customize like a spice trader – blend boldly, taste often." 🧂
