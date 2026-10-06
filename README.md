@@ -121,8 +121,3 @@ This project is [MIT](LICENSE) licensed – use it freely, even commercially.).
 </div>
 
 ---
-
-**Made by [Danu'Zz & Kelum'Xz](https://github.com/dnuzi) – Full-Stack Creative from Sri Lanka.**  
-*January 2026 Edition* | [YouTube](https://www.youtube.com/@MovaNest) | [MainSite](https://www.movanest.xyz)  
-
-> "Code like a hill country breeze – calm, yet unstoppable." 🌿💻
